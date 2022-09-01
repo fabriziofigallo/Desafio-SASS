@@ -1,0 +1,43 @@
+header{
+   a{
+        .logo{
+            
+                animation: fadeInDown;
+                animation-duration: 1s;
+            
+        }
+    .logo{
+    width: 0 auto;
+    height: 130px;
+    
+    position: center;
+    display: block;
+    margin: 0px auto ;
+    flex-direction: column;
+    }
+ } 
+}
+
+nav{
+    a{
+        font-size: 22px;
+        font-weight: bolder;
+        margin: 0 .7rem;
+    }
+
+    h1{
+        color: $color-h1;
+    }
+
+}
+
+main{
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 80vh;
+}
+
